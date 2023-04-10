@@ -47,6 +47,14 @@ export default function LoginPage() {
     <>
       <Helmet>
         <title> Login | Minimal UI </title>
+        <meta
+            property="og:title"
+            content="Minimal UI Kit Login Page"
+        />
+        <meta
+          property="og:description"
+          content="The starting point for your next project with Minimal UI Kit in Login Page."
+        />
       </Helmet>
 
       <StyledRoot>
